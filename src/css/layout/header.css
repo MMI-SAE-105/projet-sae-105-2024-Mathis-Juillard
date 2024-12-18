@@ -1,0 +1,142 @@
+body {
+    background-color: #82A8D9;
+}
+/* Style pour le header */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #fff;
+	color: #333;
+	position: relative;
+}
+
+/* Style pour le logo */
+.header__logo {
+	display: flex;
+	align-items: center;
+	height: 70px
+}
+
+.header__logo-image {
+	height: 50px;
+	margin-right: 15px;
+}
+
+.header__title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin: 0px;
+}
+
+/* Style pour le menu */
+.header__menu {
+	position: relative;
+}
+
+.header__menu-toggle {
+	font-size: 1.5rem;
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Ajout de styles responsives */
+	header {
+		position: fixed;
+		left: 0;
+		top: 0;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		display: flex;
+		padding: var(--space1x) 1vw; 
+		background-color: var(--main-colors-rouge-1);
+		z-index: 10;
+	  }
+	  
+	  
+	  .header__menu-btn {
+		display: none;
+		margin-right: 40px;
+	  }
+	  
+	  .header__logo {
+		display: flex;
+		align-items: center;
+	  }
+	  
+	  .header__name   {
+		color: var(--rose-foncé);
+		font-size: var(--tt-h3);
+		margin-right: var(--space2x);
+		font-family: "popins", sans-serif;
+	  }
+
+/* Style pour le menu principal */
+.menu {
+	background-color: #87CEEB;
+	padding: 20px;
+	color: white;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	overflow-y: auto;
+}
+
+.menu__logo-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.menu__logo-container img {
+	height: 60px;
+	margin-right: 10px;
+}
+
+.menu__logo-title {
+	font-size: 1rem;
+	color: #f06292;
+	text-align: center;
+}
+
+.menu__logo-title--highlight {
+	font-weight: bold;
+}
+
+.menu__list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.menu__item {
+	margin: 15px 0;
+}
+
+.menu__link {
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #f06292;
+	transition: color 0.3s;
+}
+
+.menu__link:hover {
+	color: #ff69b4;
+}
+
+.accueil__link {
+	color: #ff69b4;
+}
+

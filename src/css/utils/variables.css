@@ -1,0 +1,27 @@
+
+/* Collection 1 */
+:root {
+    /* Mode 1 */
+    /* color */
+    --beige-clair: #f2eae4;
+    --blanc: #ffffff;
+    --bleu: #82a8d9;
+    --gris: #cdcac7;
+    --noir: #000000;
+    --pastel: #f2cedf;
+    --rose: #f29bcb;
+    --rose-foncé: #bf495e;
+
+    --fs-taille1:2.25rem;
+
+      /* Variables de police */
+  --font-inter: 'Inter', sans-serif;
+  --font-lato: 'Lato', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-mulish: 'Mulish', sans-serif;
+  --font-open-sans: 'Open Sans', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-ultra: 'Ultra', sans-serif;
+  }
