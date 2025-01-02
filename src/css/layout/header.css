@@ -1,6 +1,29 @@
-body {
-    
-}
-/* Style pour le header */
-.header {
-}
+  body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    background-color: var(--rouge);
+    color: var(--rose-foncé);
+    position: relative;
+    z-index: 2;
+    width: 420px;
+    height: 167.045px;
+    flex-shrink: 0;
+  }
+  
+  .header__link {
+    text-decoration: none;
+    color: var(--rose-foncé);
+  }
+  
+  .header__logo {
+    width: 50px;
+    height: auto;
+  }
