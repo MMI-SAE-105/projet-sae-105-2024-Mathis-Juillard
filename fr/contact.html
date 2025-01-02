@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/style.css">
+  <script type="module" src="/src/js/script.js" defer></script>
+  <link rel="icon" type="image/png" href="/assets/img/projet solo/icons/logo/logoacceuil.webp" sizes="36x36"/>
+</head>
+
+<body id="page_accueil">
+  <header class="header">
+    <img src="/assets/img/projet solo/icons/logo/logokatana.webp" alt="logo Katana">
+    <a href="index.html" class="header__link"><img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="logo" class="header__logo"></a>
+    
+
+    <button
+      class="header__menu-btn menu-btn"
+      aria-label="menu"
+      aria-expanded="false"
+      aria-controls="mainNav"
+    >
+      <span class="menu-btn__bar" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <nav class="sidebar menu" id="mainNav" aria-hidden="true">
+    <div class="close-btn">&times;</div>
+    <img src="/assets/img/projet solo/icons/logo/têteavecnuages.webp" alt="Logo" class="logo">
+    <ul class="menu__list list-unstyled">
+      <li class="menu__item">
+        <a class="menu__link" href="objet.html">Le Katana</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="film.html">Kill Bill</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="realisateur.html">Réalisateur</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="galleriefilm.html">Gallerie de film</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="livre.html">Ouvrage</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="musique.html">O.S.T de film</a>
+      </li>
+    </ul>
+    <div class="menu__secondaire">
+      <ul class="menu__terms list-unstyled" aria-label="Legal information">
+        <li>
+          <a class="menu__link menu__link--silent" href="glossaire.html">Glossaire</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="autresprojets.html">Autres projets</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="apropos.html">À propos</a>
+        </li>
+      </ul>
+      <div class="social-media">
+        <a href="#"><img src="assets/img/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="assets/img/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="assets/img/youtube.png" alt="YouTube"></a>
+        <a href="#"><img src="assets/img/facebook.png" alt="Facebook"></a>
+      </div>
+      <p class="follow-us">Suivez nous</p>
+    </div>
+  </nav>
