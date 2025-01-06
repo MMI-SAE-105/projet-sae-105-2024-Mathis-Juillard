@@ -16,6 +16,8 @@
 /* Layout */
 @import "/src/css/layout/header.css";
 @import "/src/css/layout/footer.css";
+@import "/src/css/layout/separator.css";
+@import "/src/css/layout/card.css";
 
 /* Components */
 @import "/src/css/components/menu.css";
