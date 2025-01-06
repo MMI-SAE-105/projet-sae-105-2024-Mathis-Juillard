@@ -10,18 +10,18 @@
 
 <body id="page_accueil">
   <header class="header">
-    <img src="/assets/img/projet solo/icons/logo/logokatana.webp" alt="logo Katana">
-    <a href="index.html" class="header__link"><img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="logo" class="header__logo"></a>
-    
-
-    <button
-      class="header__menu-btn menu-btn"
-      aria-label="menu"
-      aria-expanded="false"
-      aria-controls="mainNav"
-    >
-      <span class="menu-btn__bar" aria-hidden="true"></span>
-    </button>
+    <a href="index.html" class="header__link">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="logo Katana" class="header__katana">
+    </a>
+    <div class="header__center">
+      <img src="/assets/img/projet solo/icons/logo/logokatana.webp" alt="logo" class="header__logo">
+    </div>
+    <div class="header__right">
+      <img src="/assets/img/projet solo/icons/langue/englais.webp" alt="traducteur" class="header__trad">
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        <span class="menu-btn__bar" aria-hidden="true"></span>
+      </button>
+    </div>
   </header>
 
   <nav class="sidebar menu" id="mainNav" aria-hidden="true">
@@ -73,41 +73,104 @@
   </nav>
 
 
-    <section class="biography">
-      <p class="biography__text">
-        Quentin Tarantino est connu pour ses dialogues percutants, ses intrigues non linéaires et son amour pour les hommages cinématographiques.
-      </p>
-      <img src="/assets/img/projet solo/img/réalisateur/imagedequentintarantino.webp" alt="Tarantino">
-      <div class="biography__highlight green-box">
-        <p class="green-box__text">"Un génie qui a redéfini les codes du cinéma moderne."</p>
-      </div>
+  <section class="intro">
+    <h4>Publié le 24/10 par Mathis Juillard. Temps de lecture 1min</h4>
+    <h1>Un réalisateur passionné par la culture japonaise</h1>
+    <h1>“Quentin Tarantino : la fusion brillante de la culture japonaise et du cinéma moderne.”</h1>
+  </section>
+  
+  <hr class="separator">
 
       <p class="biography__text">
-        Réalisateur de chefs-d'œuvre tels que <strong>Pulp Fiction</strong>, <strong>Kill Bill</strong>, et <strong>Inglourious Basterds</strong>, Tarantino continue d'inspirer des générations de cinéphiles.
-      </p>
+        Quentin Tarantino est reconnu pour son style unique, alliant références cinématographiques, dialogues percutants et scènes d’action chorégraphiées avec précision. 
+
+        Il se distingue particulièrement par sa capacité à s’inspirer de diverses cultures, notamment la culture japonaise. Kill Bill en est l’exemple parfait, où l’influence du cinéma japonais, en particulier des films de samouraïs, et des arts martiaux est omniprésente. 
+        
+        Tarantino s’inspire de l’esthétique des films de sabres et de kung-fu, tout en réinterprétant ces codes à travers sa propre vision moderne et occidentale.</p>
+        <img src="/assets/img/projet solo/img/réalisateur/imagedequentintarantino.webp" alt="Tarantino">
 
       <blockquote class="biography__quote citation">
-        <p class="citation__text">"Chaque film de Tarantino est une expérience unique et mémorable."</p>
+        <p class="citation__text">"Dans Kill Bill, l’utilisation du katana rend hommage au cinéma de samouraïs, un genre populaire dans le Japon des années 50 à 70 avec des réalisateurs tels qu’Akira Kurosawa. 
+
+          Le katana, arme emblématique des samouraïs, est central dans l’intrigue, représentant à la fois la vengeance et l’honneur. 
+          
+          Le personnage d’O-Ren Ishii, interprété par Lucy Liu, incarne parfaitement cette influence, étant une chef de gang qui manie le katana avec une maîtrise rappelant les samouraïs, tout en ajoutant une touche moderne avec son style de combat."</p>
       </blockquote>
 
-      <div class="biography__films">
-        <h2 class="biography__films-title">Films emblématiques</h2>
-        <ul class="biography__films-list">
-          <li class="biography__film">
-            <img src="https://via.placeholder.com/150" alt="Pulp Fiction" class="biography__film-image">
-            <p class="biography__film-title">Pulp Fiction</p>
-          </li>
-          <li class="biography__film">
-            <img src="https://via.placeholder.com/150" alt="Django Unchained" class="biography__film-image">
-            <p class="biography__film-title">Django Unchained</p>
-          </li>
-          <li class="biography__film">
-            <img src="https://via.placeholder.com/150" alt="Inglourious Basterds" class="biography__film-image">
-            <p class="biography__film-title">Inglourious Basterds</p>
-          </li>
-        </ul>
+      <div class="carousel" aria-labelledby="carousel-heading">
+        <h2 id="carousel-heading" class="carousel__heading sr-only">
+        </h2>
+    
+        <div class="carousel__container" role="region" aria-live="polite">
+          <div class="carousel__item">
+            <img id="img1" src="/assets/img/projet solo/img/réalisateur/carousel_tarantino/acteuretrealisateur.webp" alt="acteuretrealisateur" />
+          </div>
+          <div class="carousel__item">
+            <img id="img2" src="/assets/img/projet solo/img/réalisateur/carousel_tarantino/tarantinoexplication.webp" alt="tarantinoexplication" />
+          </div>
+          <div class="carousel__item">
+            <img id="img3" src="/assets/img/projet solo/img/réalisateur/carousel_tarantino/les2ensemble.webp" alt="les2ensemble" />
+          </div>
+
+        <div class="carousel__controls">
+          <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+            <img src="/assets/img/projet solo/icons/logo/icon_arrowcarrousel.svg" alt="fleche gauche" />
+          </button>
+          <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+            <img src="/assets/img/projet solo/icons/logo/icon_arrowcarrousel.svg" alt="fleche droite" />
+          </button>
+        </div>
       </div>
     </section>
+
+<p>Tarantino, amateur de cinéma asiatique, a toujours intégré des éléments japonais dans ses films. Par exemple, dans Pulp Fiction, le personnage de Mia Wallace arbore une coupe de cheveux inspirée des héroïnes de mangas. 
+
+  Avec Kill Bill, Tarantino va plus loin en mélangeant le style visuel du chanbara (films de sabres) avec des scènes de combat modernes ultra-stylisées.</p>
+
+<hr class="separator__left">
+<div class="card">
+<p>Ce mélange entre tradition japonaise et modernité est ce qui rend Tarantino si unique. Il ne se contente pas de copier les classiques japonais, mais il les réinvente dans un contexte occidental, tout en respectant les codes de base. 
+
+  Par exemple, la scène où Beatrix Kiddo (Uma Thurman) affronte une armée de combattants avec un katana dans un décor inspiré des films japonais est une référence directe aux films de samouraïs, tant par la chorégraphie que par l’esthétique.
+  </p>
+  </div>
+  <hr class="separator__right">
+<p>Tarantino montre à travers ses films comment les objets traditionnels, comme le katana, peuvent être réintroduits dans la culture populaire moderne tout en conservant leur signification symbolique. </p>
+<img src="/assets/img/projet solo/img/fleurs/fleur3.webp" alt="fleur3">
+
+<div class="carousel" aria-labelledby="carousel-heading">
+  <h2 id="carousel-heading" class="carousel__heading sr-only"></h2>
+
+  <div class="carousel__container" role="region" aria-live="polite">
+    <div class="carousel__item">
+      <img id="img4" src="/assets/img/projet solo/img/réalisateur/carousel_films/img_02371.webp" alt="img_02371"/>
+      <div class="card">
+        <p class="text__description">Once Upon a Time in Hollywood suit Rick Dalton, un acteur de westerns en déclin, et son cascadeur Cliff Booth, qui cherchent à relancer leur carrière dans le Hollywood des années 1960. Le film mêle fiction et réalité, notamment les meurtres de la famille Manson, offrant une version alternative de l’histoire et une réflexion sur l’évolution d’Hollywood.</p>
+      </div>
+    </div>
+    <div class="carousel__item">
+      <img id="img5" src="/assets/img/projet solo/img/réalisateur/carousel_films/img_02381.webp" alt="img_02381"/>
+      <div class="card">
+        <p class="text__description">Django Unchained suit Django, un esclave libéré, qui s’associe à Dr. King Schultz, un chasseur de primes, pour retrouver sa femme Broomhilda, capturée par le cruel Calvin Candie. Le film aborde les thèmes de l’esclavage, de la vengeance et de la justice, avec l’action et les dialogues caractéristiques de Tarantino.</p>
+      </div>
+    </div>
+    <div class="carousel__item">
+      <img id="img6" src="/assets/img/projet solo/img/réalisateur/carousel_films/img_02391.webp" alt="img_02391"/>
+        <p class="text__description">Jackie Brown suit Jackie Brown, une hôtesse de l’air accusée de fraude, qui élabore un plan pour échapper à un trafic d’argent entre un trafiquant d’armes et la police. Manipulant les loyautés autour d’elle, le film explore la trahison et la survie, avec le style distinctif de Tarantino, adapté d’un roman d’Elmore Leonard.</p>
+  </div>
+
+  <div class="carousel__controls">
+    <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+      <img src="/assets/img/projet solo/icons/logo/icon_arrowcarrousel.svg" alt="fleche gauche" />
+    </button>
+    <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+      <img src="/assets/img/projet solo/icons/logo/icon_arrowcarrousel.svg" alt="fleche droite" />
+    </button>
+  </div>
+</div>
+
+</section>
+
   </main>
 
   <footer class="footer">

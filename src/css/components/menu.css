@@ -4,7 +4,7 @@
   position: fixed;
   inset: 0;
   z-index: 1;
-  background-color: var(--rouge);
+  background-color: var(--rouge-foncé);
   flex-direction: column;
   justify-content: space-between;
   margin: 0px;

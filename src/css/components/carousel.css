@@ -87,4 +87,24 @@
   .carousel ul a:hover {
     text-decoration: underline;
   }
-  
+  /* Style du deuxième carrousel */
+  .carousel-text {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  /* Style du conteneur du deuxième carrousel */
+  .carousel-text__container {
+    display: flex;
+    transition: transform 0.5s ease;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+
+ 
