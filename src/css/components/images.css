@@ -1,27 +1,25 @@
+/* Style des images */
 .images {
+    box-sizing: border-box;
     max-width: 100%;
     height: auto;
     display: block; /* Évite les marges indésirables autour des images */
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Empêche le débordement horizontal */
-}
-
-.container {
+    padding: 20px;
+  }
+  
+  .container {
     max-width: 100%;
     overflow: hidden;
-}
-
-.header img, .menu img {
+    display: flex;
+  }
+  
+  .header img, .menu img {
     max-width: 100%;
     height: auto;
     object-fit: contain; /* Permet de préserver le ratio de l'image dans son conteneur */
-}
-
-.responsive-img {
+  }
+  
+  .responsive-img {
     max-width: 100%;
     height: auto;
-}
+  }

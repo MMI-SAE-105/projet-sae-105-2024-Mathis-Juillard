@@ -1,9 +1,12 @@
+/* Style du footer */
 .footer {
   background-color: var(--rouge-foncé); /* Couleur de fond similaire à l'image */
   color: white;
   padding: 2rem 1rem;
   text-align: center;
   position: relative; /* Pour positionner les éléments de manière absolue si nécessaire */
+  width: 100%;
+  box-sizing: border-box; /* Inclut les bordures et les marges dans la largeur totale */
 }
 
 .footer__container {

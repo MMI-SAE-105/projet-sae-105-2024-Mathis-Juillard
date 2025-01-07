@@ -1,9 +1,12 @@
+/* Style général */
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden; /* Empêche le débordement horizontal */
 }
 
+/* Style du header */
 .header {
   display: flex;
   align-items: center;
@@ -14,6 +17,7 @@ body {
   z-index: 2;
   width: 100%;
   height: 167.045px;
+  box-sizing: border-box; /* Inclut les bordures et les marges dans la largeur totale */
 }
 
 .header__link {
