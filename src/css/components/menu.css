@@ -1,15 +1,18 @@
+/* Style général du menu */
 .menu {
   visibility: hidden;
   display: flex;
   position: fixed;
   inset: 0;
-  z-index: 1;
+  z-index: 3;
   background-color: var(--rouge-foncé);
   flex-direction: column;
   justify-content: space-between;
-  margin: 0px;
+  margin: 0;
   transform: translateX(100vw);
   transition: all 0.3s ease-in-out;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .menu[aria-hidden="false"] {
@@ -17,17 +20,90 @@
   visibility: visible;
 }
 
+.menu__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__terms {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style des liens du menu */
 .menu__link {
   color: var(--blanc);
   text-decoration: none;
   font-size: var(--fs-taille1);
   display: block;
+  text-align: center;
 }
 
 .menu__item {
   margin-bottom: 20px;
 }
 
+/* Style du bouton de fermeture */
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 50px;
+  color: var(--noir);
+  cursor: pointer;
+}
+
+/* Style du logo */
+.logo {
+  max-width: 100px;
+  margin: 10px auto;
+  display: block;
+  size: 10px;
+}
+
+/* Style de la ligne de séparation */
+.separator__menu {
+  border: none;
+  border-top: 1px solid var(--blanc);
+  margin: 20px 0;
+  width: 100%;
+}
+
+/* Style des liens secondaires */
+.menu__secondaire .menu__link {
+  font-size: var(--fs-taille2);
+}
+
+/* Style des icônes des réseaux sociaux */
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.social-media a {
+  display: inline-block;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Style du texte "Suivez nous" */
+.follow-us {
+  color: white;
+  text-align: center;
+  font-size: var(--fs-taille2);
+  margin-bottom: 0;
+}
+
+/* Style du bouton de menu */
 .menu-btn {
   position: relative;
   width: 30px;
@@ -48,9 +124,9 @@
   content: "";
   background: var(--noir);
   height: 2px;
-  width: 100%;
+  width: 20px;
   position: absolute;
-  border-radius: 2px;
+  border-radius: 10px;
   left: 0;
   z-index: 10;
   transition: all 0.4s ease-in-out;
@@ -77,6 +153,6 @@
   top: 0;
 }
 
-
-
-
+.noscroll {
+  overflow: hidden;
+}

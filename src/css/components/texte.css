@@ -2,3 +2,22 @@
     margin-left: 30px;
 }
 
+h1 {
+    font-family: var(--font-cinzel);
+}
+
+h2 {
+    font-family: var(--font-lato);
+}
+
+h3 {
+    font-family: var(--font-raleway);
+}
+
+h4{ 
+    font-family: var(--font-open-sans);
+}
+
+p {
+    font-family: var(--font-lato);
+}

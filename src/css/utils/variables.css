@@ -17,13 +17,12 @@
     
 
       /* Variables de police */
-      :root {
+      
         --font-cinzel: 'Cinzel', serif;
         --font-lato: 'Lato', sans-serif;
         --font-open-sans: 'Open Sans', sans-serif;
         --font-raleway: 'Raleway', sans-serif;
-    }
-    
+
     /* Exemple d'utilisation des variables */
     body {
         font-family: var(--font-lato);
