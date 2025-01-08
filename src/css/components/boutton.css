@@ -1,0 +1,27 @@
+.cta-btn {
+    background-color: #c8102e; /* Rouge du bouton */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px; /* Coins arrondis */
+    padding: 15px 30px; /* Espacement interne */
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    transition: background-color 0.3s, transform 0.2s; /* Animation au survol */
+    position: relative;
+}
+
+.cta-btn:hover {
+    background-color: #a00d24; /* Rouge plus foncé au survol */
+    transform: scale(1.05); /* Agrandissement léger */
+}
+
+.cta-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Effet de focus */
+}

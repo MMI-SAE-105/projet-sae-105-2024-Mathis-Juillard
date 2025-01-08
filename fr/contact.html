@@ -25,6 +25,9 @@
   </header>
 
   <nav class="sidebar menu" id="mainNav" aria-hidden="true">
+    <a href="index.html" class="header__link">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="logo Katana" class="header__katana">
+    </a>
     <div class="close-btn">&times;</div>
     <img src="/assets/img/projet solo/icons/logo/têteavecnuages.webp" alt="Logo" class="logo">
     <ul class="menu__list list-unstyled">
@@ -47,6 +50,7 @@
         <a class="menu__link" href="musique.html">O.S.T de film</a>
       </li>
     </ul>
+    <hr class="separator__menu">
     <div class="menu__secondaire">
       <ul class="menu__terms list-unstyled" aria-label="Legal information">
         <li>
@@ -62,56 +66,42 @@
           <a class="menu__link menu__link--silent" href="apropos.html">À propos</a>
         </li>
       </ul>
-      <div class="social-media">
-        <a href="#"><img src="assets/img/instagram.png" alt="Instagram"></a>
-        <a href="#"><img src="assets/img/twitter.png" alt="Twitter"></a>
-        <a href="#"><img src="assets/img/youtube.png" alt="YouTube"></a>
-        <a href="#"><img src="assets/img/facebook.png" alt="Facebook"></a>
-      </div>
-      <p class="follow-us">Suivez nous</p>
     </div>
+    <p class="follow-us">Suivez nous</p>
+  </div>
+  <div class="social-media">
+    <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+    <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+    <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+    <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+  </div>
   </nav>
 
   <main class="main">
     <section class="contact">
-        <h1 class="contact__title">Contactez-nous</h1>
-        <p class="contact__description">Une question ? Une demande particulière ? Envoyez-nous un message et notre équipe vous répondra dans les plus brefs délais.</p>
-        <form class="contact__form">
-            <div class="contact__form-group">
-                <label for="name" class="contact__label">Nom-Prénom</label>
-                <input type="text" id="name" class="contact__input" placeholder="Rentrer votre nom-prénom">
-            </div>
-            <div class="contact__form-group">
-                <label for="email" class="contact__label">Email</label>
-                <input type="email" id="email" class="contact__input" placeholder="Rentrer votre adresse mail">
-            </div>
-            <div class="contact__form-group">
-                <label for="message" class="contact__label">Objet</label>
-                <textarea id="message" class="contact__textarea" placeholder="Rentrer votre message"></textarea>
-            </div>
-            <button type="submit" class="contact__button">Envoyer</button>
-        </form>
+      <h1 class="contact__title">Contactez-nous</h1>
+      <p class="contact__description">"Une question ou un projet ? Contactez-nous, nous répondrons rapidement !"</p>
+      <form class="contact__form">
+        <div class="contact__form-group">
+          <label for="name" class="contact__label">Entrez votre Nom</label>
+          <input type="text" id="name" class="contact__input">
+        </div>
+        <div class="contact__form-group">
+          <label for="surname" class="contact__label">Entrez votre Prénom</label>
+          <input type="text" id="surname" class="contact__input">
+        </div>
+        <div class="contact__form-group">
+          <label for="email" class="contact__label">Entrez votre Mail</label>
+          <input type="email" id="email" class="contact__input">
+        </div>
+        <div class="contact__form-group">
+          <label for="message" class="contact__label">Entrez votre Message</label>
+          <textarea id="message" class="contact__textarea"></textarea>
+        </div>
+        <button type="submit" class="contact__button">Envoyez</button>
+      </form>
     </section>
-
-    <section class="faq">
-        <h2 class="faq__title">Comment venir au festival ?</h2>
-        <p class="faq__text">Le Festival Miaullywood se tient à Pontarlier, au cinéma Olimpya. Découvrez les options de transport, les horaires, et les informations sur l'accessibilité ici.</p>
-        <img src="assets/img/pateblanche.webp" alt="">
-        <div class="competition__film">
-          <a href="infopratique.html" class="button">Plus d'info</a>
-        </div>
-
-        <h3 class="faq__subtitle">Vos questions, nos réponses</h3>
-        <div class="faq__item">
-            <p class="faq__question">Puis-je venir avec mon animal ?</p>
-            <p class="faq__answer">Non, seuls les animaux participants aux ateliers ou projections sont autorisés, sauf exceptions liées à l'accessibilité.</p>
-        </div>
-        <div class="faq__item">
-            <p class="faq__question">Comment accéder aux projections en réalité virtuelle ?</p>
-            <p class="faq__answer">Vous pouvez profiter de l'expérience immersive en vous inscrivant à nos sessions spéciales VR.</p>
-        </div>
-    </section>
-
+  </main>
 
   <footer class="footer">
     <div class="footer__container">
@@ -149,6 +139,5 @@
       </div>
     </div>
   </footer>
-
 </body>
 </html>

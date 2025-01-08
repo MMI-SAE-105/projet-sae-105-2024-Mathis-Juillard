@@ -1,110 +1,110 @@
 /* Style général du carrousel */
 .carousel {
-    position: relative;
-    width: 100%;
-    max-width: 800px; /* Ajustez selon vos besoins */
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  
-  /* Style du conteneur du carrousel */
-  .carousel__container {
-    display: flex;
-    transition: transform 0.5s ease;
-    scroll-behavior: smooth;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    margin-left: -24px; /* Marge négative à gauche pour coller le carrousel au bord de l'écran */
-    margin-right: -24px; /* Marge négative à droite pour coller le carrousel au bord de l'écran */
-  }
-  
-  /* Style des items du carrousel */
-  .carousel__item {
-    flex: 0 0 100%; /* Chaque item prend 100% de la largeur du conteneur */
-    box-sizing: border-box;
-    scroll-snap-align: center;
-  }
-  
-  .carousel__item img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  /* Style des contrôles du carrousel */
-  .carousel__controls {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-  }
-  
-  .carousel__button {
-    background: rgba(0, 0, 0, 0.5);
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-  }
-  
-  .carousel__button:hover {
-    background: rgba(0, 0, 0, 0.7);
-  }
-  
-  .carousel__button img {
-    width: 20px;
-    height: 20px;
-    filter: invert(1); /* Inverse les couleurs pour un effet blanc sur fond noir */
-  }
-  
-  .carousel__button--prev {
-    transform: rotate(180deg); /* Fait pivoter le bouton de 180 degrés */
-  }
-  
-  /* Style des liens de navigation */
-  .carousel ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .carousel ul a {
-    text-decoration: none;
-    color: #000;
-    margin: 0 10px;
-    font-size: 16px;
-  }
-  
-  .carousel ul a:hover {
-    text-decoration: underline;
-  }
-  /* Style du deuxième carrousel */
-  .carousel-text {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    overflow: hidden;
-  }
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Ajustez selon vos besoins */
+  margin: 0 auto;
+  overflow: hidden;
+}
 
-  /* Style du conteneur du deuxième carrousel */
-  .carousel-text__container {
-    display: flex;
-    transition: transform 0.5s ease;
-    scroll-behavior: smooth;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    margin-left: -24px;
-    margin-right: -24px;
-  }
+/* Style du conteneur du carrousel */
+.carousel__container {
+  display: flex;
+  transition: transform 0.5s ease;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  margin-left: -24px; /* Marge négative à gauche pour coller le carrousel au bord de l'écran */
+  margin-right: -24px; /* Marge négative à droite pour coller le carrousel au bord de l'écran */
+}
 
- 
+/* Style des items du carrousel */
+.carousel__item {
+  flex: 0 0 100%; /* Chaque item prend 100% de la largeur du conteneur */
+  box-sizing: border-box;
+  scroll-snap-align: center;
+}
+
+.carousel__item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Style des contrôles du carrousel */
+.carousel__controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  z-index: 10; /* Assurez-vous que les boutons sont au-dessus du contenu */
+}
+
+.carousel__button {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.carousel__button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel__button img {
+  width: 20px;
+  height: 20px;
+  filter: invert(1); /* Inverse les couleurs pour un effet blanc sur fond noir */
+}
+
+.carousel__button--prev {
+  transform: rotate(180deg); /* Fait pivoter le bouton de 180 degrés */
+}
+
+/* Style des liens de navigation */
+.carousel ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.carousel ul a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.carousel ul a:hover {
+  text-decoration: underline;
+}
+
+/* Style du deuxième carrousel */
+.carousel-text {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Style du conteneur du deuxième carrousel */
+.carousel-text__container {
+  display: flex;
+  transition: transform 0.5s ease;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  margin-left: -24px;
+  margin-right: -24px;
+}

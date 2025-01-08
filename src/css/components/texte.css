@@ -1,23 +1,32 @@
-.texte {
-    margin-left: 30px;
-}
 
 h1 {
     font-family: var(--font-cinzel);
+    padding: 20px;
 }
 
 h2 {
     font-family: var(--font-lato);
+    padding: 20px;
 }
 
 h3 {
     font-family: var(--font-raleway);
+    padding: 20px;
 }
 
 h4{ 
     font-family: var(--font-open-sans);
+    padding: 20px;
+
 }
 
 p {
     font-family: var(--font-lato);
+    padding: 20px;
+}
+
+.typo__rouge {
+    color: var(--rouge-foncé);
+    font-family: var(--font-cinzel);
+    padding: 20px;
 }
