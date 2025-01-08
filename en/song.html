@@ -6,21 +6,151 @@
   <link rel="stylesheet" href="/src/style.css">
   <script type="module" src="/src/js/script.js"></script>
   <link rel="icon" type="image/png" href="/assets/img/projet solo/icons/logo/logoacceuil.webp" sizes="36x36"/>
-  <title>Katana</title>
 </head>
 
 <body id="page_accueil">
   <header class="header">
     <a href="index.html" class="header__link">
-      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="logo Katana" class="header__katana">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="Katana logo" class="header__katana">
     </a>
     <div class="header__center">
       <img src="/assets/img/projet solo/icons/logo/logokatana.webp" alt="logo" class="header__logo">
     </div>
     <div class="header__right">
-      <a href="/en/song.html"><img src="/assets/img/projet solo/icons/langue/englais.webp" alt="traducteur" class="header__trad"></a>
+      <a href="/fr/musique.html"><img src="/assets/img/projet solo/icons/langue/français.webp" alt="translator" class="header__trad"></a>
       <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
         <span class="menu-btn__bar" aria-hidden="true"></span>
       </button>
     </div>
   </header>
+
+  <nav class="sidebar menu" id="mainNav" aria-hidden="true">
+    <a href="index.html" class="header__link">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="Katana logo" class="header__katana">
+    </a>
+    <div class="close-btn">&times;</div>
+    <img src="/assets/img/projet solo/icons/logo/têteavecnuages.webp" alt="Logo" class="logo">
+    <ul class="menu__list list-unstyled">
+      <li class="menu__item">
+        <a class="menu__link" href="object.html">The Katana</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="filmE.html">Kill Bill</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="director.html">Director</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="filmgallery.html">Film Gallery</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="book.html">Book</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="song.html">Film O.S.T</a>
+      </li>
+    </ul>
+    <hr class="separator__menu">
+    <div class="menu__secondaire">
+      <ul class="menu__terms list-unstyled" aria-label="Legal information">
+        <li>
+          <a class="menu__link menu__link--silent" href="glossary.html">Glossary</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="otherprojects.html">Other Projects</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="contactE.html">Contact</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+    <p class="follow-us">Follow us</p>
+  </div>
+      <div class="social-media">
+        <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+        <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+        <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+        <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+    </nav>
+
+  <main class="main-content">
+    <section class="intro">
+      <h1 class="intro__title">TRIBUTE TO JAPANESE TRADITIONS</h1>
+      <h1 class="typo__rouge">KILL BILL: A TRADITIONAL AND MODERN SOUNDTRACK TO MAGNIFY ACTION AND REVENGE.</h1>
+    </section>
+
+    <section class="music">
+      <div class="music__content">
+        <img src="/assets/img/projet solo/img/musique/imgmusique.webp" alt="Kill Bill Poster" class="music__image">
+        <p class="music__description">
+          The soundtrack of <strong>Kill Bill</strong>, composed by RZA, captures the essence of the work by blending traditional Japanese music with modern sounds. It accompanies each scene with an intensity that transcends the screen.
+        </p>
+      </div>
+
+      <div class="music__highlight">
+        <p class="music__highlight-text">"A cinematic symphony combining Eastern culture and Western energy."</p>
+      </div>
+
+      <div class="music__gallery">
+        <div class="music__gallery-item">
+          <img src="/assets/img/projet solo/img/musique/imagedufilmdanslaneige.webp" alt="Fight scene" class="music__gallery-image">
+          <p class="music__gallery-caption">Choreographed battles blending tradition and modernity.</p>
+        </div>
+      </div>
+
+      <hr class="separator__red">
+
+      <div class="music__quote">
+        <p class="music__quote-text">
+          Quentin Tarantino explores timeless themes such as revenge and justice. The Count of Monte Cristo and swordsmanship occupy a central place.
+        </p>
+      </div>
+
+      <div class="music__cta">
+        <button class="cta-btn" onclick="location.href='livre.html'">THE WORK</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo">
+        <img src="/assets/img/projet solo/icons/logo/teteavecfleurs.webp" alt="Decorative logo">
+      </div>
+      <div class="footer__menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="mentions-legales.html">Legal Notice</a></li>
+          <li><a href="contact.html">Contact & Access</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h2>Contact</h2>
+        <address>
+          25200 Montbéliard<br>
+          1 Cr Louis Leprince-Ringuet<br>
+          03 84 58 30 00<br>
+          <a href="mailto:mathis.juillard@edu.univ-fcomte.fr">mathis.juillard@edu.univ-fcomte.fr</a>
+        </address>
+      </div>
+      <div class="footer__social">
+        <h2>Follow us</h2>
+        <div class="social-links">
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="footer__credits">
+        <p>Project created in 2024 as part of a pedagogical exercise at the MMI department of Montbéliard.</p>
+        <img src="/assets/img/projet solo/icons/réseaux sociaux/logommi.webp" alt="MMI Logo">
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

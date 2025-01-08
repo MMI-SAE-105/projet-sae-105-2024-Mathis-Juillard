@@ -6,21 +6,151 @@
   <link rel="stylesheet" href="/src/style.css">
   <script type="module" src="/src/js/script.js"></script>
   <link rel="icon" type="image/png" href="/assets/img/projet solo/icons/logo/logoacceuil.webp" sizes="36x36"/>
-  <title>Katana</title>
 </head>
 
 <body id="page_accueil">
   <header class="header">
     <a href="index.html" class="header__link">
-      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="logo Katana" class="header__katana">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="Katana logo" class="header__katana">
     </a>
     <div class="header__center">
-      <img src="/assets/img/projet solo/icons/logo/logokatana.webp" alt="logo" class="header__logo">
+      <img src="/assets/img/projet solo/icons/logo/logokatana.webp" alt="Logo" class="header__logo">
     </div>
     <div class="header__right">
-      <a href="/en/filmgallery"><img src="/assets/img/projet solo/icons/langue/englais.webp" alt="traducteur" class="header__trad"></a>
+      <a href="/fr/galleriefilm.html"><img src="/assets/img/projet solo/icons/langue/français.webp" alt="translator" class="header__trad"></a>
       <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
         <span class="menu-btn__bar" aria-hidden="true"></span>
       </button>
     </div>
   </header>
+
+  <nav class="sidebar menu" id="mainNav" aria-hidden="true">
+    <a href="index.html" class="header__link">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="Katana logo" class="header__katana">
+    </a>
+    <div class="close-btn">&times;</div>
+    <img src="/assets/img/projet solo/icons/logo/têteavecnuages.webp" alt="Logo" class="logo">
+    <ul class="menu__list list-unstyled">
+      <li class="menu__item">
+        <a class="menu__link" href="filmE.html">Kill Bill</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="director.html">Director</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="filmgallery.html">Film Gallery</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="book.html">Work</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="song.html">Film O.S.T</a>
+      </li>
+    </ul>
+    <hr class="separator__menu">
+    <div class="menu__secondaire">
+      <ul class="menu__terms list-unstyled" aria-label="Legal information">
+        <li>
+          <a class="menu__link menu__link--silent" href="glossary.html">Glossary</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="otherprojects.html">Other Projects</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="contactE.html">Contact</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+    <p class="follow-us">Follow Us</p>
+    <div class="social-media">
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h4>Published on 24/10 by Mathis Juillard. Reading time 3 minutes.</h4>
+      <h1>The katana on screen: Iconic Film Gallery</h1>
+      <h1 class="typo__rouge">"Gallery: films like Kill Bill and The Last Samurai where the katana plays a central role."</h1>
+    </section>
+
+    <section class="film">
+      <img src="/assets/img/projet solo/img/film/couverturedufilmlederniersamourai.webp" alt="The Last Samurai" class="film__image">
+      <h2 class="film__title">THE LAST SAMURAI</h2>
+      <p class="film__description">
+        A collaboration between Ridley Scott and Edward Zwick, this film is a historical epic that immerses us in 19th-century Japan. Tom Cruise plays an American cavalry captain who, after being captured, becomes immersed in samurai culture.
+      </p>
+    </section>
+
+    <section class="film">
+      <img src="/assets/img/projet solo/img/film/imagedufilmassassin.webp" alt="The Assassin" class="film__image">
+      <h2 class="film__title">THE ASSASSIN</h2>
+      <p class="film__description">
+        Directed by Hou Hsiao-Hsien, this film is a visual masterpiece exploring the life of an assassin in 9th-century China. With contemplative scenes and sumptuous cinematography, "The Assassin" is a poetic and mysterious journey.
+      </p>
+    </section>
+
+    <section class="film">
+      <img src="/assets/img/projet solo/img/film/couverturedufilmkenshin.webp" alt="Rurouni Kenshin" class="film__image">
+      <h2 class="film__title">RUROUNI KENSHIN</h2>
+      <p class="film__description">
+        Adapted from the famous manga, this film tells the story of Kenshin Himura, a former assassin seeking redemption by protecting the innocent during the Meiji era. It offers action, emotion, and reflections on violence.
+      </p>
+    </section>
+
+    <section class="film">
+      <img src="/assets/img/projet solo/img/film/couverturedufilmyojimbo.webp" alt="Yojimbo" class="film__image">
+      <h2 class="film__title">YOJIMBO</h2>
+      <p class="film__description">
+        An Akira Kurosawa classic, "Yojimbo" follows the adventures of a masterless samurai who manipulates two rival clans for his own benefit. An iconic film that inspired many spaghetti westerns.
+      </p>
+    </section>
+    <button class="cta-btn" onclick="location.href='song.html'">
+      Film O.S.T
+    </button>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo">
+        <img src="/assets/img/projet solo/icons/logo/teteavecfleurs.webp" alt="Decorative logo">
+      </div>
+      <div class="footer__menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="mentions-legales.html">Legal Mentions</a></li>
+          <li><a href="contact.html">Contacts & Access</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h2>Contact</h2>
+        <address>
+          25200 Montbéliard<br>
+          1 Cr Louis Leprince-Ringuet<br>
+          03 84 58 30 00<br>
+          <a href="mailto:mathis.juillard@edu.univ-fcomte.fr">mathis.juillard@edu.univ-fcomte.fr</a>
+        </address>
+      </div>
+      <div class="footer__social">
+        <h2>Follow us</h2>
+        <div class="social-links">
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="footer__credits">
+        <p>Project created in 2024 as part of an educational exercise in the MMI department of Montbéliard.</p>
+        <img src="/assets/img/projet solo/icons/réseaux sociaux/logommi.webp" alt="MMI Logo">
+      </div>
+    </div>
+  </footer>
+</body>
+</html> 

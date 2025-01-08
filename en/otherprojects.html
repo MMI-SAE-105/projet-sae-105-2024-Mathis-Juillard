@@ -4,23 +4,167 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/src/style.css">
-  <script type="module" src="/src/js/script.js"></script>
+  <script type="module" src="/src/js/script.js" defer></script>
   <link rel="icon" type="image/png" href="/assets/img/projet solo/icons/logo/logoacceuil.webp" sizes="36x36"/>
-  <title>Katana</title>
+  <title>Student Projects</title>
 </head>
-
-<body id="page_accueil">
+<body id="home_page">
   <header class="header">
     <a href="index.html" class="header__link">
-      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="logo Katana" class="header__katana">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="Katana logo" class="header__katana">
     </a>
     <div class="header__center">
       <img src="/assets/img/projet solo/icons/logo/logokatana.webp" alt="logo" class="header__logo">
     </div>
     <div class="header__right">
-      <a href="/en/otherprojects.html"><img src="/assets/img/projet solo/icons/langue/englais.webp" alt="traducteur" class="header__trad"></a>
+      <a href="/fr/autresprojets.html"><img src="/assets/img/projet solo/icons/langue/français.webp" alt="translator" class="header__trad"></a>
       <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
         <span class="menu-btn__bar" aria-hidden="true"></span>
       </button>
     </div>
   </header>
+
+  <nav class="sidebar menu" id="mainNav" aria-hidden="true">
+    <a href="index.html" class="header__link">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="Katana logo" class="header__katana">
+    </a>
+    <div class="close-btn">&times;</div>
+    <img src="/assets/img/projet solo/icons/logo/têteavecnuages.webp" alt="Logo" class="logo">
+    <ul class="menu__list list-unstyled">
+      <li class="menu__item">
+        <a class="menu__link" href="object.html">The Katana</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="filmE.html">Kill Bill</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="director.html">Director</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="filmgallery.html">Film Gallery</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="book.html">Book</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="song.html">Film O.S.T</a>
+      </li>
+    </ul>
+    <hr class="separator__menu">
+    <div class="menu__secondaire">
+      <ul class="menu__terms list-unstyled" aria-label="Legal information">
+        <li>
+          <a class="menu__link menu__link--silent" href="glossary.html">Glossary</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="otherprojects.html">Other Projects</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="contactE.html">Contact</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+    <p class="follow-us">Follow us</p>
+    <div class="social-media">
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+    </div>
+  </nav>
+
+  <main class="projects-container">
+    <h1 class="title">Discover Student Projects</h1>
+    <p class="subtitle">Explore projects created by students of the MMI department at the IUT of Belfort-Montbéliard.</p>
+
+    <div class="project">
+      <img src="/assets/img/projet solo/img/autre projet/logo_echoes_of_time1.webp" alt="Echoes of Time" class="project-img">
+      <h2 class="project-title">Echoes of Time</h2>
+      <p class="project-author">by Enzo Loacatelli</p>
+      <button class="cta-btn" onclick='location.href="https://echoes-of-dialogue.eva-lacroix.fr/"'>Learn more</button>
+    </div>
+
+    <div class="project">
+      <img src="/assets/img/projet solo/img/autre projet/logo_echoes_of_dialogue.webp" alt="Echoes of Dialogue" class="project-img">
+      <h2 class="project-title">Echoes of Dialogue</h2>
+      <p class="project-author">by Eva Lacroix</p>
+      <button class="cta-btn" onclick='location.href="https://echoes-of-dialogue.eva-lacroix.fr/"'>Learn more</button>
+    </div>
+
+    <div class="project">
+      <img src="/assets/img/projet solo/img/autre projet/logo_optic_3000.webp" alt="Optic 3000" class="project-img">
+      <h2 class="project-title">Optic 3000</h2>
+      <p class="project-author">by Ugo Lippi</p>
+      <button class="cta-btn" onclick='location.href="https://optic-3000.ugo-lippi.fr/"'>Learn more</button>
+    </div>
+
+    <div class="project">
+      <img src="/assets/img/projet solo/img/autre projet/logo_famille_dhier.webp" alt="Family of Yesterday" class="project-img">
+      <h2 class="project-title">Family of Yesterday</h2>
+      <p class="project-author">by Victor Landwerlin</p>
+      <button class="cta-btn" onclick='location.href="https://victor-landwerlin-famille-d-hier.netlify.app/fr/"'>Learn more</button>
+    </div>
+
+    <div class="project">
+      <img src="/assets/img/projet solo/img/autre projet/logo_au_fil_des_lames.webp" alt="Along the Blades" class="project-img">
+      <h2 class="project-title">Along the Blades</h2>
+      <p class="project-author">by Manolia Kocaoglu</p>
+      <button class="cta-btn" onclick='location.href="https://mathis-juillard.github.io/au-fil-des-lames/"'>Learn more</button>
+    </div>
+
+    <div class="project">
+      <img src="/assets/img/projet solo/img/autre projet/logo_hatera.webp" alt="Hatera" class="project-img">
+      <h2 class="project-title">Hatera</h2>
+      <p class="project-author">by Lucas Lebars</p>
+      <button class="cta-btn" onclick='location.href="https://mathis-juillard.github.io/hatera/"'>Learn more</button>
+    </div>
+
+    <div class="project">
+      <img src="/assets/img/projet solo/img/autre projet/logo_audela.webp" alt="Beyond" class="project-img">
+      <h2 class="project-title">Beyond</h2>
+      <p class="project-author">by Myliana Jolivet</p>
+      <button class="cta-btn" onclick='location.href="https://mathis-juillard.github.io/au-dela/"'>Learn more</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo">
+        <img src="/assets/img/projet solo/icons/logo/teteavecfleurs.webp" alt="Decorative Logo">
+      </div>
+      <div class="footer__menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="mentions-legales.html">Legal Notice</a></li>
+          <li><a href="contact.html">Contact & Access</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h2>Contact</h2>
+        <address>
+          25200 Montbéliard<br>
+          1 Cr Louis Leprince-Ringuet<br>
+          03 84 58 30 00<br>
+          <a href="mailto:mathis.juillard@edu.univ-fcomte.fr">mathis.juillard@edu.univ-fcomte.fr</a>
+        </address>
+      </div>
+      <div class="footer__social">
+        <h2>Follow Us</h2>
+        <div class="social-links">
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="footer__credits">
+        <p>Project completed in 2024 as part of an educational exercise at the MMI department of Montbéliard.</p>
+        <img src="/assets/img/projet solo/icons/réseaux sociaux/logommi.webp" alt="MMI Logo">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
