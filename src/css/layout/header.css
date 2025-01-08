@@ -27,7 +27,7 @@ body {
 }
 
 .header__katana {
-  width: 100px;
+  width: 25vw;
   height: auto;
 }
 
@@ -36,21 +36,26 @@ body {
   align-items: center;
   justify-content: center;
   flex-grow: 1;
+  height: 100%;
 }
 
 .header__logo {
-  width: 300px; /* Ajustez selon la taille de votre logo */
-  height: auto;
+  width: 60vw; /* Ajustez selon la taille de votre logo */
+  max-height: 100%;
 }
 
 .header__right {
   display: flex;
   align-items: center;
 }
+.header__right a {
+  align-self: center;
+}
+
 
 .header__trad {
   width: 30px; /* Ajustez selon la taille de votre icône de traduction */
-  height: auto;
+  min-height: 100%;
   margin-right: 25px;
 }
 
@@ -61,6 +66,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 3vw;
 }
 
 .menu-btn__bar {
