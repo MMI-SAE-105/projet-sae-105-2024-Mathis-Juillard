@@ -40,6 +40,7 @@
   font-size: var(--fs-taille1);
   display: block;
   text-align: center;
+  font-family: var(--font-cinzel); 
 }
 
 .menu__item {
@@ -48,12 +49,10 @@
 
 /* Style du bouton de fermeture */
 .close-btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
   font-size: 50px;
   color: var(--noir);
   cursor: pointer;
+  padding-top: 5dvh;
 }
 
 /* Style du logo */
