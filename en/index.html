@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +12,150 @@
 <body id="page_accueil">
   <header class="header">
     <a href="index.html" class="header__link">
-      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="logo Katana" class="header__katana">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="Katana logo" class="header__katana">
     </a>
     <div class="header__center">
       <img src="/assets/img/projet solo/icons/logo/logokatana.webp" alt="logo" class="header__logo">
     </div>
     <div class="header__right">
-      <a href="/en/index.html"><img src="/assets/img/projet solo/icons/langue/englais.webp" alt="traducteur" class="header__trad"></a>
+      <a href="/fr/index.html"><img src="/assets/img/projet solo/icons/langue/français.webp" alt="translator" class="header__trad"></a>
       <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
         <span class="menu-btn__bar" aria-hidden="true"></span>
       </button>
     </div>
   </header>
+
+  <nav class="sidebar menu" id="mainNav" aria-hidden="true">
+    <a href="index.html" class="header__link">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="Katana logo" class="header__katana">
+    </a>
+    <div class="close-btn">&times;</div>
+    <img src="/assets/img/projet solo/icons/logo/têteavecnuages.webp" alt="Logo" class="logo">
+    <ul class="menu__list list-unstyled">
+      <li class="menu__item">
+        <a class="menu__link" href="object.html">The Katana</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="filmE.html">Kill Bill</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="director.html">Director</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="filmgallery.html">Film Gallery</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="book.html">Book</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="song.html">Film O.S.T</a>
+      </li>
+    </ul>
+    <hr class="separator__menu">
+    <div class="menu__secondaire">
+      <ul class="menu__terms list-unstyled" aria-label="Legal information">
+        <li>
+          <a class="menu__link menu__link--silent" href="glossary.html">Glossary</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="otherprojects.html">Other Projects</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="contactE.html">Contact</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+    <p class="follow-us">Follow us</p>
+  </div>
+  <div class="social-media">
+    <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+    <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+    <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+    <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h4>Published on 24/10 by Mathis Juillard. Reading time 2min</h4>
+      <img src="/assets/img/projet solo/icons/nuages/nuagedroite.webp" alt="clouds" class="images nuage-haut">
+      <img src="/assets/img/projet solo/icons/nuages/nuagegauche.webp" alt="clouds" class="images nuage-bas">
+      <h1>Welcome to “Katana!”</h1>
+      <img src="/assets/img/projet solo/icons/nuages/pagedaccueil.webp" alt="Description" class="full-width-img">
+      <p>Welcome to my site dedicated to the katana, an iconic symbol of Japanese tradition. 
+        Here, we explore the fascinating history of this mythical object while imagining its evolution into a modern future, combining technology and ecology. Dive into the world of the katana, between past and future. Enjoy your visit!</p>
+      <h1>Tradition and symbolism</h1>
+      <p>The katana, sword of the samurai, symbolizes honor and mastery. Still present in modern culture, it bridges the past and the present.</p>
+      <img src="/assets/img/projet solo/img/page d'accueil/imagepinterest.webp" alt="katana photo" class="images">
+      <button class="cta-btn" onclick="location.href='objet.html'">
+        MORE INFO
+      </button>
+
+      <hr class="separator__red">
+
+      <h1> The impact of the katana in modern cinema</h1>
+      <p>Tarantino popularized the katana with Kill Bill, where it becomes a symbol of vengeance and justice for Beatrix Kiddo in precise combat scenes.</p>
+      <img src="/assets/img/projet solo/img/page d'accueil/couverturedufilm.webp" alt="film cover" class="images">
+      <button class="cta-btn" onclick="location.href='film.html'">MORE INFO</button>
+
+      <hr class="separator__red">
+      <h1> A director passionate about Japanese culture</h1>
+      <p>Tarantino incorporates elements of Japanese culture into his films, reinterpreting the katana in a modern context. Discover how Kill Bill draws inspiration from it.</p>
+      <img src="/assets/img/projet solo/img/page d'accueil/imagedequentintarantino.webp" alt="Tarantino" class="images">
+      <button class="cta-btn" onclick="location.href='realisateur.html'">MORE INFO</button>
+
+      <hr class="separator__red">
+      <h1> Tribute to Japanese traditions</h1>
+      <p>The Kill Bill soundtrack combines traditional Japanese music with modern sounds, emphasizing the importance of the katana in the story.</p>
+      <img src="/assets/img/projet solo/img/page d'accueil/Y291dmVydHVyZWRlbCdvc3Q=.webp" alt="music" class="images">
+      <button class="cta-btn" onclick="location.href='musique.html'">MORE INFO</button>
+
+      <hr class="separator__red">
+      <h1> Vengeance and honor, timeless themes</h1>
+      <p>Like the katana, the story of Edmond Dantès in The Count of Monte Cristo illustrates a quest for vengeance and justice, rooted in samurai culture.</p>
+      <img src="/assets/img/projet solo/img/page d'accueil/couverturedulivre.webp" alt="book cover" class="images">
+      <button class="cta-btn" onclick="location.href='livre.html'">MORE INFO</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo">
+        <img src="/assets/img/projet solo/icons/logo/teteavecfleurs.webp" alt="Decorative logo">
+      </div>
+      <div class="footer__menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="mentions-legales.html">Legal Notices</a></li>
+          <li><a href="contact.html">Contacts & Access</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h2>Contact</h2>
+        <address>
+          25200 Montbéliard<br>
+          1 Cr Louis Leprince-Ringuet<br>
+          03 84 58 30 00<br>
+          <a href="mailto:mathis.juillard@edu.univ-fcomte.fr">mathis.juillard@edu.univ-fcomte.fr</a>
+        </address>
+      </div>
+      <div class="footer__social">
+        <h2>Follow Us</h2>
+        <div class="social-links">
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="footer__credits">
+        <p>Project created in 2024 as part of a pedagogical exercise in the MMI department of Montbéliard.</p>
+        <img src="/assets/img/projet solo/icons/réseaux sociaux/logommi.webp" alt="MMI Logo">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+

@@ -1,26 +1,226 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/src/style.css">
   <script type="module" src="/src/js/script.js"></script>
   <link rel="icon" type="image/png" href="/assets/img/projet solo/icons/logo/logoacceuil.webp" sizes="36x36"/>
-  <title>Katana</title>
 </head>
 
-<body id="page_accueil">
+<body id="homepage">
   <header class="header">
     <a href="index.html" class="header__link">
-      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="logo Katana" class="header__katana">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="Katana logo" class="header__katana">
     </a>
     <div class="header__center">
       <img src="/assets/img/projet solo/icons/logo/logokatana.webp" alt="logo" class="header__logo">
     </div>
     <div class="header__right">
-      <a href="/en/director.html"><img src="/assets/img/projet solo/icons/langue/englais.webp" alt="traducteur" class="header__trad"></a>
+      <a href="/fr/realisateur.html"><img src="/assets/img/projet solo/icons/langue/français.webp" alt="translator" class="header__trad"></a>
       <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
         <span class="menu-btn__bar" aria-hidden="true"></span>
       </button>
     </div>
   </header>
+  
+  <nav class="sidebar menu" id="mainNav" aria-hidden="true">
+    <a href="index.html" class="header__link">
+      <img src="/assets/img/projet solo/icons/logo/logoacceuil.webp" alt="Katana logo" class="header__katana">
+    </a>
+    <div class="close-btn">&times;</div>
+    <img src="/assets/img/projet solo/icons/logo/têteavecnuages.webp" alt="Logo" class="logo">
+    <ul class="menu__list list-unstyled">
+      <li class="menu__item">
+        <a class="menu__link" href="object.html">The Katana</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="filmE.html">Kill Bill</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="director.html">Director</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="filmgallery.html">Film Gallery</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="book.html">Books</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="song.html">Movie O.S.T</a>
+      </li>
+    </ul>
+    <hr class="separator__menu">
+    <div class="menu__secondary">
+      <ul class="menu__terms list-unstyled" aria-label="Legal information">
+        <li>
+          <a class="menu__link menu__link--silent" href="glossary.html">Glossary</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="otherprojects.html">Other Projects</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="contactE.html">Contact</a>
+        </li>
+        <li>
+          <a class="menu__link menu__link--silent" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+    <p class="follow-us">Follow us</p>
+    <div class="social-media">
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+      <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+    </div>
+  </nav>
+
+  <section class="intro">
+    <h4>Published on 24/10 by Mathis Juillard. Reading time: 1 min</h4>
+    <h1>A director passionate about Japanese culture</h1>
+    <h1 class="typo__rouge">"Quentin Tarantino: the brilliant fusion of Japanese culture and modern cinema."</h1>
+  </section>
+  
+  <hr class="separator">
+
+  <p class="biography__text">
+    Quentin Tarantino is renowned for his unique style, blending cinematic references, impactful dialogues, and precisely choreographed action scenes. 
+
+    He stands out particularly for his ability to draw inspiration from diverse cultures, especially Japanese culture. Kill Bill is the perfect example, where the influence of Japanese cinema, particularly samurai films, and martial arts is omnipresent. 
+    
+    Tarantino draws inspiration from the aesthetics of sword and kung-fu films while reinterpreting these codes through his modern and Western vision.
+  </p>
+  <img src="/assets/img/projet solo/img/réalisateur/imagedequentintarantino.webp" alt="Tarantino" class="images">
+
+  <blockquote class="biography__quote citation">
+    <p class="citation__text">"In Kill Bill, the use of the katana pays homage to samurai cinema, a popular genre in Japan from the 1950s to the 1970s, with directors such as Akira Kurosawa. 
+
+      The katana, the emblematic weapon of the samurai, is central to the plot, symbolizing both revenge and honor. 
+      
+      The character of O-Ren Ishii, played by Lucy Liu, perfectly embodies this influence, being a gang leader who wields the katana with mastery reminiscent of the samurai while adding a modern touch with her fighting style."
+    </p>
+  </blockquote>
+
+  <div class="carousel" aria-labelledby="carousel-heading">
+    <h2 id="carousel-heading" class="carousel__heading sr-only"></h2>
+  
+    <div class="carousel__container" role="region" aria-live="polite">
+      <div class="carousel__item">
+        <img id="img1" src="/assets/img/projet solo/img/réalisateur/carousel_tarantino/acteuretrealisateur.webp" alt="Actor and Director" />
+      </div>
+      <div class="carousel__item">
+        <img id="img2" src="/assets/img/projet solo/img/réalisateur/carousel_tarantino/tarantinoexplication.webp" alt="Tarantino Explaining" />
+      </div>
+      <div class="carousel__item">
+        <img id="img3" src="/assets/img/projet solo/img/réalisateur/carousel_tarantino/les2ensemble.webp" alt="Together" />
+      </div>
+    </div>
+  
+    <div class="carousel__controls">
+      <button class="carousel__button carousel__button--prev" aria-label="Scroll Left">
+        <img src="/assets/img/projet solo/icons/logo/icon_arrowcarrousel.svg" alt="Left Arrow" />
+      </button>
+      <button class="carousel__button carousel__button--next" aria-label="Scroll Right">
+        <img src="/assets/img/projet solo/icons/logo/icon_arrowcarrousel.svg" alt="Right Arrow" />
+      </button>
+    </div>
+  </div>
+
+  
+  
+  <p>Tarantino, an enthusiast of Asian cinema, has always incorporated Japanese elements into his films. For instance, in *Pulp Fiction*, the character Mia Wallace sports a hairstyle inspired by manga heroines. 
+     With *Kill Bill*, Tarantino takes it further by blending the visual style of *chanbara* (sword-fighting films) with ultra-stylized modern combat scenes.</p>
+  
+  <hr class="separator__left">
+  
+  <div class="card">
+    <p>This mix of Japanese tradition and modernity is what makes Tarantino so unique. He doesn’t just copy Japanese classics but reinvents them in a Western context while respecting their core principles. 
+       For example, the scene where Beatrix Kiddo (Uma Thurman) faces an army of fighters with a katana in a setting inspired by Japanese films is a direct nod to samurai films, both in choreography and aesthetics.</p>
+  </div>
+  
+  <hr class="separator__right">
+  
+  <p>Through his films, Tarantino demonstrates how traditional objects like the katana can be reintroduced into modern popular culture while preserving their symbolic significance.</p>
+  <img src="/assets/img/projet solo/img/fleurs/fleur3.webp" alt="flower3" class="flower-separator">
+  
+  <div class="carousel" aria-labelledby="carousel-heading">
+    <h2 id="carousel-heading" class="carousel__heading sr-only"></h2>
+  
+    <div class="carousel__container" role="region" aria-live="polite">
+      <div class="carousel__item">
+        <img id="img4" src="/assets/img/projet solo/img/réalisateur/carousel_films/img_02371.webp" alt="img_02371" />
+        <div class="card">
+          <p class="text__description">*Once Upon a Time in Hollywood* follows Rick Dalton, a declining Western actor, and his stuntman Cliff Booth, as they try to revive their careers in 1960s Hollywood. 
+             The film blends fiction and reality, particularly the Manson family murders, offering an alternate history and a reflection on Hollywood's evolution.</p>
+        </div>
+      </div>
+      <div class="carousel__item">
+        <img id="img5" src="/assets/img/projet solo/img/réalisateur/carousel_films/img_02381.webp" alt="img_02381"/>
+        <div class="card">
+          <p class="text__description">*Django Unchained* follows Django, a freed slave, who teams up with Dr. King Schultz, a bounty hunter, to find his wife Broomhilda, held captive by the cruel Calvin Candie. 
+             The film addresses themes of slavery, vengeance, and justice, featuring Tarantino's trademark action and dialogue.</p>
+        </div>
+      </div>
+      <div class="carousel__item">
+        <img id="img6" src="/assets/img/projet solo/img/réalisateur/carousel_films/img_02391.webp" alt="img_02391"/>
+        <div class="card">
+          <p class="text__description">*Jackie Brown* follows Jackie Brown, a flight attendant accused of fraud, who devises a plan to escape a money-smuggling scheme involving an arms dealer and the police. 
+             The film explores betrayal and survival with Tarantino's distinctive style, adapted from Elmore Leonard's novel.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="carousel__controls">
+      <button class="carousel__button carousel__button--prev" aria-label="Scroll left">
+        <img src="/assets/img/projet solo/icons/logo/icon_arrowcarrousel.svg" alt="left arrow" />
+      </button>
+      <button class="carousel__button carousel__button--next" aria-label="Scroll right">
+        <img src="/assets/img/projet solo/icons/logo/icon_arrowcarrousel.svg" alt="right arrow" />
+      </button>
+    </div>
+  </div>
+  
+  </section>
+  <button class="cta-btn" onclick="location.href='filmgallery.html'">
+    See films linked to the katana
+  </button>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo">
+        <img src="/assets/img/projet solo/icons/logo/teteavecfleurs.webp" alt="Decorative logo">
+      </div>
+      <div class="footer__menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="mentions-legales.html">Legal Notice</a></li>
+          <li><a href="contact.html">Contacts & Access</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h2>Contact</h2>
+        <address>
+          25200 Montbéliard<br>
+          1 Cr Louis Leprince-Ringuet<br>
+          03 84 58 30 00<br>
+          <a href="mailto:mathis.juillard@edu.univ-fcomte.fr">mathis.juillard@edu.univ-fcomte.fr</a>
+        </address>
+      </div>
+      <div class="footer__social">
+        <h2>Follow us</h2>
+        <div class="social-links">
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/instagram2 (1).webp" alt="Instagram"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/twitter2 (1).webp" alt="Twitter"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/youtube2.webp" alt="YouTube"></a>
+          <a href="#"><img src="/assets/img/projet solo/icons/réseaux sociaux/facebook2 (1).webp" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="footer__credits">
+        <p>Project created in 2024 as part of an educational exercise in the MMI department of Montbéliard.</p>
+        <img src="/assets/img/projet solo/icons/réseaux sociaux/logommi.webp" alt="MMI Logo">
+      </div>
+    </div>
+  </footer>
+  
